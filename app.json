@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Fast Rhymes",
+    "slug": "fast-rhymes",
+    "privacy": "public",
+    "userInterfaceStyle": "automatic",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "2.5.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled": false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "rhyme.dictionary.mobileapp",
+      "buildNumber": "2020050401",
+      "supportsTablet": false,
+      "isTabletOnly": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "appStoreUrl": "https://apps.apple.com/us/app/fast-rhymes/id1492575811?ls=1"
+    },
+    "android": {
+      "package": "rhyme.dictionary.mobileapp",
+      "versionCode": 2020050401,
+      "permissions": [],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=rhyme.dictionary.mobileapp"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#1c1c1c"
+    }
+  }
+}
